@@ -6,9 +6,9 @@
         zmk,matrix_transform = &default_transform;
     }; 
 
-gpio-key: pin9 {
-    gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
-};
+gpio-key: pin11 {  /* Updated label for clarity */
+        gpios = <&gpio0 11 GPIO_ACTIVE_LOW>;
+    };
 
     vbatt: vbatt {
 	compatible = "zmk,battery-nrf-vddh";
