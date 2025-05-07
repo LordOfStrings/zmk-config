@@ -2,14 +2,11 @@ file_format: "1"
 id: charybdis
 name: Charybdis
 type: shield
-url: https://github.com/Bastardkb/Charybdis/
+url: https://github.com/bastardkb/charybdis/
 requires: [pro_micro]
 features:
   - keys
   - pointer
-  - backlight
-  - underglow
-  - studio
 siblings:
   - charybdis_left
   - charybdis_right
