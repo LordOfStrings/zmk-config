@@ -33,7 +33,7 @@ layers:
   - /
   - MOU
   - SPACE
-  - {t: TAB, h: NAV}
+  - {t: TAB, h: ENTER}
   - {t: BACKSPACE, h: SNM}
   - {t: ENTER, h: RIGHT SHIFT}
   NAV:
@@ -69,7 +69,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: BACKSPACE, h: FUN}
   - LSHFT
   SNM:
@@ -141,7 +141,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   MOU:
